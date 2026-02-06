@@ -1,0 +1,38 @@
+# Binários e Executáveis
+# ----------------------
+# Ignora o binário compilado principal (geralmente o nome da pasta do projeto)
+# Se você costuma dar nomes específicos, adicione-os aqui
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Variáveis de Ambiente e Segredos
+# --------------------------------
+# Essencial para proteger suas chaves e configurações locais
+.env
+*.env
+!.env.example
+
+# Dependências e Cache
+# --------------------
+# Go modules não precisam ser ignorados (go.mod e go.sum devem ir para o git),
+# mas o diretório vendor/ é opcional. Descomente se NÃO quiser salvar as dependências.
+# vendor/
+
+# Ferramentas de Build e Logs
+# ---------------------------
+*.log
+crash.log
+
+# IDEs e Editores
+# ---------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
