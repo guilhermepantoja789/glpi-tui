@@ -36,3 +36,4 @@ crash.log
 *.swo
 *~
 .DS_Store
+glpi-tui
